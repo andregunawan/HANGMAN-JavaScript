@@ -91,9 +91,17 @@ function newGame ()
 
 document.onkeyup = function (event) 
 {
+  if (event.keyCode === 32) {
+        // prevent default behaviour
+        event.userInput();
+        return false;
+    } 
+  else {
   var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
   userInput(userGuess);
   newGame();
+  }
+  
 };
 
 gameStart();
