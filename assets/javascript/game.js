@@ -1,15 +1,20 @@
-var gameTitle = ["sonic the hedgehog", "super mario world", "mortal kombat", "the legend of zelda", "final fantasy vii"];
+var gameTitle = ["sonic the hedgehog", "super mario world", "mortal kombat", "the legend of zelda", "final fantasy vii", "metal gear solid", "street fighter", "megaman x", "tekken", "pokemon"];
 var remainingGuesses;
 var wins = 0;
 var guessedLetter;
 var correctAnswer;
 var question;
 var selected_array;
-var themeSong = [ "https://www.youtube.com/embed/z0XiGtIYrCI?ecver=1&rel=0&autoplay=1",
-                  "https://www.youtube.com/embed/VH8mQRXemuo?ecver=1&rel=0&autoplay=1",
-                  "https://www.youtube.com/embed/KUjx8UtcKQ4?ecver=1&rel=0&autoplay=1",
-                  "https://www.youtube.com/embed/cGufy1PAeTU?ecver=1&rel=0&autoplay=1",
-                  "https://www.youtube.com/embed/Gbvc_3iOeoU?ecver=1&rel=0&autoplay=1",];
+var themeSong = [ "https://www.youtube.com/embed/z0XiGtIYrCI?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/VH8mQRXemuo?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/KUjx8UtcKQ4?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/cGufy1PAeTU?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/Gbvc_3iOeoU?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/yd3zMu707XU?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/LQw-a8sApLQ?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/YROV9Gj7e2g?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/9NUu8OMVuhY?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",
+                  "https://www.youtube.com/embed/rg6CiPI6h2g?ecver=1&rel=0&autoplay=1&amp;controls=0&amp;showinfo=0",];
 
 var titleDisplay = document.getElementById("currentWord");
 var remainingGuessesDisplay = document.getElementById("guessesRemaining");
