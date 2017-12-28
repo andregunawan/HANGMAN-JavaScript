@@ -1,6 +1,6 @@
 HANGMAN GAME
 
-https://andregunawan.github.io/Hangman/
+https://andregunawan.github.io/HANGMAN-JavaScript/
 
 This Hangman game was created by using Javascript,HTML5 and Bootstrap CSS.
 
